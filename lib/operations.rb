@@ -8,5 +8,5 @@ end
 
 
 def not_safe?(speed)
-	age > 60 ? true : false
+	age < 40 ? true : false
 end
